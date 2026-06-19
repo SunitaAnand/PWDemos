@@ -35,7 +35,7 @@ await page.goto("https://testautomationpractice.blogspot.com/")
 
 
 //! To check an option present in the drop down 
-test.only('Check Dropdown Value',async({page})=>{
+test('Check Dropdown Value',async({page})=>{
 await page.goto("https://testautomationpractice.blogspot.com/") 
 const dropoptionsvalue =  (await page.locator('#colors>option').allTextContents()).map(text =>text.trim())
 console.log(dropoptionsvalue)

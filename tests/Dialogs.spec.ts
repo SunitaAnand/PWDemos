@@ -116,7 +116,7 @@ await expect(page.locator('#demo')).toHaveText('You pressed Cancel!')
 
 //! Prompt Dialog
 
-test.only("Prompt Dialog",async({page})=>{
+test("Prompt Dialog",async({page})=>{
 await page.goto("https://testautomationpractice.blogspot.com/")
 
 //  Define the alert 

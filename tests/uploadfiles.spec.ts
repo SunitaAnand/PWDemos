@@ -26,7 +26,7 @@ test("Single File Upload",async({page})=>{
 })
 
 
-test.only("Multiple Files Upload",async({page})=>{
+test("Multiple Files Upload",async({page})=>{
     await page.goto("https://testautomationpractice.blogspot.com/")
     await page.locator("#multipleFilesInput").setInputFiles(["Uploads/playWrightSyllabusForTypeScript.txt","Uploads/Day18-Locators.pdf"])
     await page.locator("//button[text()='Upload Multiple Files']").click()
