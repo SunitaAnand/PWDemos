@@ -49,7 +49,7 @@ console.log(dropdownOptions)
 })
 
 //!3) To check an option present in the dropdown  
-test.only('To get text of dropdown options',async({page})=>{
+test('To get text of dropdown options',async({page})=>{
 await page.goto("https://testautomationpractice.blogspot.com/") 
 
 const dropdownText = (await page.locator('#country>option').allTextContents()).map(text=>text.trim())
