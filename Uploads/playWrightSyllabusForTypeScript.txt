@@ -1,0 +1,250 @@
+TypeScript Syllabus
+
+
+Module 1 – Introduction to TypeScript
+
+Topics:
+
+What is TypeScript
+
+Why TypeScript is used
+
+TypeScript vs JavaScript
+
+Features of TypeScript
+
+Installing TypeScript
+
+TypeScript compiler (tsc)
+
+Understanding tsconfig.json
+
+Compilation process
+
+TypeScript architecture overview
+
+Scanner
+
+Parser
+
+Binder
+
+Checker
+
+Emitter
+
+Practical:
+
+Install TypeScript and compile the first .ts file
+
+
+ Module 2 – Basic Types in TypeScript
+
+Topics:
+
+Type annotations
+
+Type inference
+
+Primitive types
+
+number
+
+string
+
+boolean
+
+Special types
+
+any
+
+unknown
+
+void
+
+never
+
+null and undefined
+
+Practical:
+
+Declare variables with different types
+
+
+
+Module 3 – Functions in TypeScript
+
+Topics:
+
+Function type annotations
+
+Optional parameters
+
+Default parameters
+
+Function return types
+
+Practical:
+
+Write strongly typed functions
+
+
+
+
+ Module 4 – Objects and Arrays
+
+Topics:
+
+Object type annotations
+
+Array types
+
+Tuple types
+
+Readonly arrays
+
+Nested objects
+
+Optional properties
+
+Practical:
+
+Create typed objects and arrays
+
+
+
+**Enums
+
+
+
+Module 5 – Interfaces
+
+Topics:
+
+What is an interface
+
+Interface properties
+
+Optional properties
+
+Readonly properties
+
+Function interfaces
+
+Interface vs Type alias
+
+Extending interfaces
+
+Practical:
+
+Create reusable interfaces
+
+
+
+
+Module 6 – Type Aliases
+
+Topics:
+
+Type alias syntax
+
+Reusable types
+
+Union types
+
+Intersection types
+
+Literal types
+
+Examples:
+
+"admin" | "user" | "guest"
+
+Practical:
+
+Define complex types using aliases
+
+
+
+
+ Module 7 – Classes in TypeScript
+
+Topics:
+
+Class syntax
+
+Constructor
+
+Properties and methods
+
+
+
+
+Access modifiers
+
+public
+
+private
+
+protected
+
+Readonly properties
+
+
+
+Static members
+
+
+
+Practical:
+
+Create classes with encapsulation
+
+
+
+
+Module 8 – Object-Oriented Programming
+
+Topics:
+
+Inheritance
+
+Method overriding
+
+Abstract classes
+
+Interfaces with classes
+
+Polymorphism
+
+Practical:
+
+Build simple OOP examples
+
+
+
+Module 9 – Generics
+
+Topics:
+
+Introduction to generics
+
+Generic functions
+
+Generic interfaces
+
+Generic classes
+
+Generic constraints
+
+Example:
+
+function identity<T>(value: T): T {
+ return value;
+}
+
+Practical:
+
+
+
+module 10-Decorator 
