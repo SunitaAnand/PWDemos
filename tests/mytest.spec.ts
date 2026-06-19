@@ -15,7 +15,7 @@ await expect (page).toHaveTitle("Swag Labs")
 
 })
 
-test.only("To Get URL",async({page})=>{
+test("To Get URL",async({page})=>{
  await page.goto("https://www.prokabaddi.com/teams")
  let URL = page.url()
  console.log("Uniform Resource Locator of the page is :" ,URL)
