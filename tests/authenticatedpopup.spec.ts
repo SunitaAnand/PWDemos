@@ -27,7 +27,7 @@ test('Authenticated Pop Ups',async({browser})=>{
 
 //! Approach 2 ) : Pass the login along with browser context 
 
-test.only('Authenticated Pop-Ups',async({browser})=>{   
+test('Authenticated Pop-Ups',async({browser})=>{   
 
     const context = await browser.newContext({httpCredentials:{username:'admin',password:'admin'}})
     const page   = await context.newPage()
